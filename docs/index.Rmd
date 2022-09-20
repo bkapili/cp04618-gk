@@ -245,7 +245,7 @@ pBar <- plot_ly(df, x = ~Plot_label, y = ~Abundance, type = "bar",
 pBar$x$layout$yaxis$linecolor <- "#000000"
 pBar
 ```
-**Figure 1:** Microbial community composition of collected saliva and CapScan samples. CapScan samples are ordered from proximal to distal intestine (*i*.*e*., increasing distance from mouth). Taxonomic composition is reported at the genus rank. Genera present at <1% relative abundance across all samples are reported as "Other genera". <u>Note:</u> Blue = *Firmicutes*; Yellow = *Actinomycetes*; Green = *Bacteroidetes*; Red = *Proteobacteria*; Purple = all other phyla. Shades of the same color (except purple) correspond to different genera from the same phylum.
+**Figure 1:** Microbial community composition of collected saliva and CapScan samples. Taxonomic composition is reported at the genus rank. Genera present at <1% relative abundance across all samples are reported as "Other genera". <u>Note:</u> Blue = *Firmicutes*; Yellow = *Actinomycetes*; Green = *Bacteroidetes*; Red = *Proteobacteria*; Purple = all other phyla. Shades of the same color (except purple) correspond to different genera from the same phylum.
 
 ```{r, include = FALSE}
 # Ordination-based
@@ -387,4 +387,4 @@ pHeat
 ### 1.4 References
 </div>
 
-Chang, F.Y., Siuti, P., Laurent, S., Williams, T., Glassey, E., Sailer, A.W., *et al*. (2021) Gut-inhabiting Clostridia build human GPCR ligands by conjugating neurotransmitters with diet- and human-derived fatty acids. *Nat Microbiol* 6: 792–805.
+Chang, F.Y., Siuti, P., Laurent, S., Williams, T., Glassey, E., Sailer, A.W., *et al*. (2021) Gut-inhabiting Clostridia build human GPCR ligands by conjugating neurotransmitters with diet- and human-derived fatty acids. *Nat Microbiol* **6:** 792–805.
